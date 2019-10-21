@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Test Suite]">
+  <test name="LinksSmokeTest">
+    <classes>
+      <class name="tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- LinksSmokeTest -->
+  <test name="LinksSmokeTest(failed)">
+    <classes>
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+    </classes>
+  </test> <!-- LinksSmokeTest(failed) -->
+</suite> <!-- Failed suite [Smoke Test Suite] -->
